@@ -80,15 +80,30 @@ root
 
 #### P (Proportional):
 
-	If the error is small the more conservative the response. If the error is large the more aggressive the response. If this parameter is too large the tendency is to overshoot and miss the desired output. If it's too large the oscillation will be increasing and instead of converging it will diverge. If it's too small, it will take a longer time to get to the desired set point.
+	If the error is small the more conservative the 
+	response. If the error is large the more aggressive 
+	the response. If this parameter is too large the 
+	tendency is to overshoot and miss the desired output.
+	If it's too large the oscillation will be increasing 
+	and instead of converging it will diverge. If it's 
+	too small, it will take a longer time to get to the 
+	desired set point.
 
 #### I (Integral):
 
-	The parameter that sets how much we take into consideration the cumulative error over time. This is usually used when we see that there is a systematic bias wherein we are not converging to our desired set point. 
+	The parameter that sets how much we take into 
+	consideration the cumulative error over time. 
+	This is usually used when we see that there is a 
+	systematic bias wherein we are not converging to our 
+	desired set point. 
 
 #### D (Derivative):
 
-	This parameter considers the rate of change in the error. If the error is rapidly approaching zero, this parameter will attempt to slow things down to avoid overshooting. If this is too large, then there will be overdamping which means it will take longer to reach the desired goal. 
+	This parameter considers the rate of change in the error. 
+	If the error is rapidly approaching zero, this parameter 
+	will attempt to slow things down to avoid overshooting. 
+	If this is too large, then there will be overdamping which
+	means it will take longer to reach the desired goal. 
 
 ## Discussions <a name="discussions"></a>
 
